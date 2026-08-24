@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Build Docker Image') {
      steps {
-      bat 'docker build -t tut5 .'
+      bat '"C:\\Users\\Iffat Anees Shaha\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin\\docker.exe" build -t tut5 .'
      }
     }
     stage('Deploy') {
